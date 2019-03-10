@@ -1,0 +1,11 @@
+config.json 
+  host      
+  user      
+  password
+  database
+
+poolQuery.js
+  use
+    let query = require('./poolquery')  
+    query(sql, callback)
+      // function callback(qerr, vals, fields) {} 
